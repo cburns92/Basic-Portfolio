@@ -1,0 +1,78 @@
+.header{
+    margin:0;
+    position:relative;
+    width:100%;
+    height:50px;
+    background-color: white;
+    border-bottom: solid 5px black;
+}
+
+.name{
+    margin-left:15%;
+    width:15%;
+    padding-top:5px;
+    height:45px;
+    background-color:teal;
+    position:absolute;
+    text-align:center;
+    font-size: 40px;
+    overflow: hidden;
+    float:left;
+    border-left:solid 5px black;
+    border-right:solid 5px black;
+}
+
+.navigation{
+    text-align:center;
+    height:40px;
+    font-size:20px;
+    padding-top:10px;
+    background-color:teal;
+    position:absolute;
+    right:0;
+    top:0;
+    width:15%;
+    margin-right:15%;
+    color: white;
+    border-left:solid 5px black;
+    border-right:solid 5px black;
+}
+
+.about-me{
+    position:relative;
+    margin-top:5%;
+    margin-left:20%;
+    margin-right:20%;
+    padding:10px;
+    background-color:white;
+    border:solid 5px black;
+    overflow:visible; 
+}
+
+.me-header{
+    position:absolute;
+    width:98%;
+    border-bottom: solid 3px grey;
+    font-size:35px;
+    
+}
+
+.me-info{
+    position:absolute;
+    font-size: 35px;
+}
+
+
+.footer{
+    width:100%;
+    padding-top:5px;
+    background-color:white;
+    text-align:center;
+    height: 25px;
+    position:fixed;
+    bottom:0;
+    left:0;
+}
+body{
+    background-color: grey;
+}
