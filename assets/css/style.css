@@ -12,7 +12,7 @@
     width:15%;
     padding-top:5px;
     height:45px;
-    background-color:teal;
+    background-color:lightblue;
     position:absolute;
     text-align:center;
     font-size: 40px;
@@ -27,7 +27,7 @@
     height:40px;
     font-size:20px;
     padding-top:10px;
-    background-color:teal;
+    background-color:lightblue;
     position:absolute;
     right:0;
     top:0;
@@ -76,5 +76,5 @@
     left:0;
 }
 body{
-    background-image:url(https://bgfons.com/upload/stone_texture194.jpg);
+    background-image:url(http://paper-backgrounds.com/textureimages/2012/07/white-vintage-wall-texture-hd.jpg);
 }
