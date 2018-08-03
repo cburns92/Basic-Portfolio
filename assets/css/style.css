@@ -1,3 +1,4 @@
+
 .header{
     margin:0;
     position:relative;
@@ -5,63 +6,112 @@
     height:50px;
     background-color: white;
     border-bottom: solid 3px black;
+    display: auto;
 }
 
 .name{
     margin-left:15%;
-    width:15%;
-    padding-top:5px;
-    height:45px;
+    height:100%;
     background-color:lightblue;
     position:absolute;
     text-align:center;
-    font-size: 40px;
+    font-size-adjust: auto;
     overflow: hidden;
     float:left;
     border-left:solid 3px black;
     border-right:solid 3px black;
+    width:auto;
+    min-width:15%;
 }
 
 .navigation{
     text-align:center;
-    height:40px;
-    font-size:20px;
-    padding-top:10px;
+    height:100%;
+    font-size:16px;
+    padding:1%;
     background-color:lightblue;
     position:absolute;
     right:0;
     top:0;
-    width:15%;
     margin-right:15%;
     color: white;
+    float:left;
     border-left:solid 3px black;
     border-right:solid 3px black;
+    min-width:15%;
+    width:auto;
 }
 
-.about-me{
-    position:relative;
-    margin-top:5%;
-    margin-left:20%;
-    margin-right:20%;
-    margin-bottom:5%;
-    padding:10px;
-    background:white;
-    border:solid 3px black;
+main{
+    clear:both;
+    margin:auto;
+    height:auto;
+    max-width:960px;
+    /* border: 3px dashed red; */
+}
+
+.skeleton{
+    height:auto;
+    margin:auto;
     overflow:auto;
-    height:500px; 
+    padding: 35px;
+    background:white;
+    border: 3px groove black;
+    margin-top: 5%;
+    float:left;
 }
 
-.me-header{
-    position:absolute;
-    width:98%;
+.skeleton-2{
+    height:auto;
+    width:100%;
+    overflow:auto;
+    padding: 35px;
+    background:white;
+    border: 3px groove black;
+    margin-top:5%;
+    float:left;
+}
+
+.skeleton-3{
+    height:auto;
+    width:100%;
+    overflow:auto;
+    padding: 35px;
+    background:white;
+    border: 3px groove black;
+    margin-top: 5%;
+    float:left;
+}
+
+.subheader-1{
+    float:left;
+    width:100%;
+    height:5%;
     border-bottom: solid 3px grey;
-    font-size:35px;
+    font-size:30px;
+    
+}
+
+.subheader-2{
+    float:left;
+    width:100%;
+    height:5%;
+    border-bottom: solid 3px grey;
+    font-size:30px;
+    
+}
+
+.subheader-3{
+    float:left;
+    width:100%;
+    height:5%;
+    border-bottom: solid 3px grey;
+    font-size:30px;
     
 }
 
 .me-info{
-    position:absolute;
-    font-size: 35px;
+    font-size: 30px;
 }
 
 
@@ -70,11 +120,39 @@
     padding-top:5px;
     background-color:white;
     text-align:center;
-    height: 25px;
+    min-height: 25px;
+    height:auto;
     position:fixed;
     bottom:0;
     left:0;
 }
 body{
-    background-image:url(http://paper-backgrounds.com/textureimages/2012/07/white-vintage-wall-texture-hd.jpg);
+    background:grey;
+}
+
+*{
+    margin:0;
+    height:100%;
+    box-sizing: border-box;
+}
+
+textarea {
+    resize: none;
+  }
+
+.container {
+    float:left;
+    width:33%;
+    position: relative;
+    text-align: center;
+}
+
+.label {
+    left:0;
+    bottom:10;
+    color:black;
+}
+img{
+    margin:10px;
+    size:auto;
 }
