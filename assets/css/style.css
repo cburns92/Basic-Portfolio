@@ -11,7 +11,6 @@
 
 .name{
     margin-left:15%;
-    padding:1%;
     height:100%;
     background-color:lightblue;
     position:absolute;
@@ -46,11 +45,12 @@
 main{
     clear:both;
     margin:auto;
+    height:auto;
     max-width:960px;
     /* border: 3px dashed red; */
 }
 
-.about-me{
+.skeleton{
     height:auto;
     margin:auto;
     overflow:auto;
@@ -61,23 +61,47 @@ main{
     float:left;
 }
 
-/* .about-me{
-    position:relative;
+.skeleton-2{
+    height:auto;
+    width:100%;
     overflow:auto;
-    width:auto;
-    min-width:80%;
-    height: auto;    
-    margin-top:5%;
-    margin-left:10%;
-    margin-right:10%;
-    margin-bottom:5%;
-    padding:10px;
+    padding: 35px;
     background:white;
-    border:solid 3px black;
-    
-} */
+    border: 3px groove black;
+    margin-top:5%;
+    float:left;
+}
 
-.me-header{
+.skeleton-3{
+    height:auto;
+    width:100%;
+    overflow:auto;
+    padding: 35px;
+    background:white;
+    border: 3px groove black;
+    margin-top: 5%;
+    float:left;
+}
+
+.subheader-1{
+    float:left;
+    width:100%;
+    height:5%;
+    border-bottom: solid 3px grey;
+    font-size:30px;
+    
+}
+
+.subheader-2{
+    float:left;
+    width:100%;
+    height:5%;
+    border-bottom: solid 3px grey;
+    font-size:30px;
+    
+}
+
+.subheader-3{
     float:left;
     width:100%;
     height:5%;
@@ -110,4 +134,25 @@ body{
     margin:0;
     height:100%;
     box-sizing: border-box;
+}
+
+textarea {
+    resize: none;
+  }
+
+.container {
+    float:left;
+    width:33%;
+    position: relative;
+    text-align: center;
+}
+
+.label {
+    left:0;
+    bottom:10;
+    color:black;
+}
+img{
+    margin:10px;
+    size:auto;
 }
